@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="edit.css">
+    <title>Home Karajuji</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+          <a href="">Sair</a>
+        </nav>
+        <div class="navbar" id="myNavbar">
+          <a href="../Vocacional_teste/index.html">Vocacional</a>
+          <div class="dropdown">
+            <button class="dropbtn">Artes Marciais
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../InfoJUDÔ/index.html">Judô</a>
+              <a href="../InfoJIUJITSU/index.html">Jiu-Jitsu</a>
+              <a href="../InfoKARATÊ/index.html">Karatê</a>
+            </div>
+          </div>
+        </div>
+    </header>     
+
+    <main>  
+        <div class="containerPrincipal">
+            <div class="containerPerfil">
+                <img src="../../assets/login.png" alt="Profile Picture" id="fotoPerfil">
+                <div class="perfilName">Nome do Usuário <button id="botaoEdit"> <img src="../../assets/edit.png" alt="edit" id="perfilEdit"></button></div>
+                <input type="text" id="inputBio" placeholder="Escreva aqui sua Bio:">
+                <button onclick="editar()" id="editBtn">Alterar</button>         
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+      <img src="../../assets/box-img-horizontal.png" alt="">
+    </footer>
+</body>
+</html>
